@@ -1,0 +1,105 @@
+    <html>
+    <head>
+        <title>Instagram</title>
+        <link rel="icon" href="Instagram.png" type="image/x-icon">
+        <style>
+            body{
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                min-height: 50vh;
+                margin: 0%;
+                
+            }
+            body{
+                background: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bed86970147521.5b997876a5525.jpg") no-repeat center;
+                height: 100vh;
+                background-size: cover;   
+            }
+
+                header{
+               background-color: rgba(248, 191, 95, 100);
+               color: white;
+               box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+               text-shadow: 2px 2px #000000;
+               padding: 20px 0px;
+               text-align: center;
+               width: 100%;
+            }
+            header{
+               opacity: 0.8;
+
+            }
+
+            #login-container {
+                text-align:center;
+                background-color: rgba(248, 191, 95, 100);
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);
+                
+            }
+            
+            form{
+                max-width: 300px;
+                margin: 15px;
+                
+            }
+            
+            input[placeholder="username or email"]
+            input[placeholder="password"] {
+                height: 50px;
+                width: 100px;
+                padding: 5px;
+                margin-bottom: 15px;
+                border: 1px solid #000000;
+                border-radius: 100px;
+            }
+            
+            input[type="submit"] {
+                background-color: rgb(83, 152, 255);
+                color:#000000;
+                border: none;
+                padding: 7px 70px;
+                border-radius: 5px;
+                cursor: pointer;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            }
+            
+            .Back img{
+                padding-right: 900px;
+                margin-right: 400px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 style="font-size: 60px; font-family: Billabong;">Instagram</h1>
+        </header>
+        <br><br><br><br><br>
+        <div class="Back">
+            <a href="index.html"><img src="button.png" alt="button" width="40px" height="30px"></a>
+        </div>
+        <div id="login-container", style = "position:relative; right: -400px; top:9px;">
+            <form action="Login.php" method="post">
+                
+                <input placeholder="Username or Email" style="border-radius: 5px; height: 40px; width: 200px;"
+                ><br><br>
+                <input placeholder="Password" type="Password" style="border-radius: 5px; height: 40px; width: 200px;"><br><br>
+
+
+                <input type="submit" value="Login"><br><br>
+             <div id="ForgotPassword", style = "position:relative; right: 0px; bottom: 2px; font-family: sans-serif;">
+                <a href="ForgotPassword.html" style="font-size: 12px"> Forgot Password </a><br>
+
+            <div id="ForgotPassword", style = "position:relative; right: 0px; bottom: 2px; font-family: sans-serif;">
+
+               <p style="font-size: 12px;">
+                Don't have an account?
+                <a href="SignIn.html" style="font-size: 12px">Sign In </a></p>
+            </form>
+        </div>
+    </body>
+    </html>
